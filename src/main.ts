@@ -12,15 +12,15 @@ const routes = [
   {
     path: 'resources',
     loadComponent: () =>
-      import('src/app/resources/resources.component').then(
-        (c) => c.ResourcesComponent
+      import('./app/resources/resources.component').then(
+        (m) => m.ResourcesComponent
       ),
   },
   {
     path: 'next-steps',
     loadComponent: () =>
-      import('src/app/next-steps/next-steps.component').then(
-        (c) => c.NextStepsComponent
+      import('./app/next-steps/next-steps.component').then(
+        (m) => m.NextStepsComponent
       ),
   },
 ];
