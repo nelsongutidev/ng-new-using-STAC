@@ -1,4 +1,6 @@
-# Aplicacion ejemplo de angular (ng new ) utilizando solamente standalone components (Angular sample app using only standalone components)
+# Standalone components
+
+Aplicacion ejemplo de angular (ng new ) utilizando solamente standalone components (Angular sample app using only standalone components)
 
 ## ng version 15
 
